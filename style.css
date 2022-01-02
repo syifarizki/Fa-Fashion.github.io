@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+/* navabar */
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+}
+ul li a:hover{
+background-color:rgb(212, 97, 117);
+cursor: pointer;
+padding: 12px;
+}
+/* akhir navbar */
+/* hero */
+.hero {
+  height: 600px;
+  background: url(img/slide.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero h1 {
+  padding-top: 200px;
+  font-size: 90px;
+  font-family: "Lobster", cursive;
+  color: #d42626;
+}
+.hero h3{
+    color: rgb(42, 187, 180);
+    font-size: 35px;
+}
+
+/* akhir hero */
+/* product */
+
+.btn {
+  background-color: #e9967a;
+}
+#product h1 {
+  margin-top: 100px;
+}
+/* akhir product */
+/* contact */
+.row svg {
+  cursor: pointer;
+}
+/* akhir contact */
